@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xinji Biotech GitHub Projects</title>
+    <meta
+      name="description"
+      content="Official GitHub Pages hub for Xinji Biotech open source projects, Chrome extensions and product demo pages."
+    >
+    <link rel="canonical" href="https://xinjibiotech.github.io/">
+    <style>
+      :root {
+        --ink: #18222f;
+        --muted: #607183;
+        --line: #d9e1e8;
+        --soft: #f5f8fa;
+        --brand: #0f7a5f;
+        --brand-dark: #0a5a46;
+        --panel: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--panel);
+        line-height: 1.55;
+      }
+
+      a {
+        color: var(--brand-dark);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .nav {
+        border-bottom: 1px solid var(--line);
+        background: #fff;
+      }
+
+      .nav-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 16px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .brand {
+        font-weight: 760;
+      }
+
+      .links {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        font-size: 14px;
+      }
+
+      .hero {
+        background: linear-gradient(180deg, #f7faf8 0%, #ffffff 82%);
+      }
+
+      .hero-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 76px 22px 56px;
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        color: var(--brand);
+        font-size: 13px;
+        font-weight: 760;
+        text-transform: uppercase;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 760px;
+        font-size: clamp(38px, 6vw, 66px);
+        line-height: 1.04;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        margin: 22px 0 0;
+        max-width: 720px;
+        color: var(--muted);
+        font-size: 19px;
+      }
+
+      .section {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 48px 22px;
+      }
+
+      .section h2 {
+        margin: 0 0 18px;
+        font-size: 28px;
+        letter-spacing: 0;
+      }
+
+      .project {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        background: #fff;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 20px;
+        align-items: center;
+      }
+
+      .project h3 {
+        margin: 0 0 8px;
+        font-size: 22px;
+      }
+
+      .project p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+
+      .button {
+        min-height: 42px;
+        padding: 9px 14px;
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 720;
+        background: #fff;
+      }
+
+      .button.primary {
+        background: var(--brand);
+        border-color: var(--brand);
+        color: #fff;
+      }
+
+      .footer {
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+      }
+
+      .footer-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 26px 22px;
+        display: flex;
+        gap: 14px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      @media (max-width: 760px) {
+        .nav-inner,
+        .project {
+          align-items: flex-start;
+          grid-template-columns: 1fr;
+        }
+
+        .nav-inner {
+          flex-direction: column;
+        }
+
+        .actions {
+          justify-content: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="https://www.xinjipetfood.com/">Xinji Biotech</a>
+        <nav class="links" aria-label="Primary navigation">
+          <a href="https://www.xinjipetfood.com/">Official Website</a>
+          <a href="https://github.com/xinjibiotech">GitHub</a>
+          <a href="https://www.xinjipetfood.com/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <p class="eyebrow">Open source and product demos</p>
+          <h1>Xinji Biotech GitHub Projects</h1>
+          <p class="lead">
+            Official project hub for Xinji Biotech tools, Chrome extensions and public demo pages related to pet food OEM sourcing and product information workflows.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Projects</h2>
+        <article class="project">
+          <div>
+            <h3>Xinji Pet Food OEM Product Link</h3>
+            <p>
+              Chrome extension for B2B pet food OEM product search, ingredient comparison, local favorites, CSV/JSON export and verified Xinji website navigation.
+            </p>
+          </div>
+          <div class="actions">
+            <a class="button primary" href="https://xinjibiotech.github.io/xinjipetfood-chrome-plugin/">Demo Page</a>
+            <a class="button" href="https://github.com/xinjibiotech/xinjipetfood-chrome-plugin">Source Code</a>
+            <a class="button" href="https://github.com/xinjibiotech/xinjipetfood-chrome-plugin/releases/tag/v1.0.0">Release</a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span>© Xinji Biotech. Public project hub.</span>
+        <span>
+          <a href="https://www.xinjipetfood.com/chrome-extension-privacy/">Chrome Extension Privacy</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
